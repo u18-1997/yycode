@@ -1,3 +1,9 @@
+------------------------------ 
+-- yyget获得表内容，
+-- 
+--
+--
+-------------------------------
 DELIMITER $$
 CREATE PROCEDURE `yyget`(	in `tabName` varchar(50),
 												in `sqlFileds` varchar(512),
