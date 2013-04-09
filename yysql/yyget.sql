@@ -12,9 +12,7 @@ CREATE PROCEDURE `yyget`(	in `tabName` varchar(50),
 top:
 BEGIN
 	declare `@databasenow` varchar(255);
-	declare`f1` varchar(64);
-	declare`f2` varchar(64);
-	declare`f3` varchar(64);
+	declare`f1` varchar,declare`f2` varchar,declare`f3` varchar(64);
 	declare `f0`,`vf0`,`v1`,`v2`,`v3`,`tempSqlFileds`,`tempSqlWhere`,`delimiter`,`@activeTable` varchar(1024);
 	declare `symbol` varchar(1);
 	declare done int;
